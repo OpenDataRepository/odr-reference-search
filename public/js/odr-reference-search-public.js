@@ -193,6 +193,11 @@ let cellparams = [];
 				$("#sel_sort_dir").val($("#sel_sort_dir option:first").val());
 			});
 
+			// Help toggle button
+			$("#reference-search-help-toggle").click(function () {
+				$("#reference-search-help").slideToggle('fast');
+			});
+
 			jQuery("#reference-search-form-wrapper input").keypress(function (e) {
 				if (e.which === 13) {
 					submitSearchForm();
