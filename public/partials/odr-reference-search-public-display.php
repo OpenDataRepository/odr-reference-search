@@ -174,8 +174,7 @@
         <div class="pure-u-1 pure-u-md-7-24 pure-u-xl-7-24"></div>
         <div class="pure-u-1 pure-u-md-16-24 pure-u-xl-16-24">
             <div style="padding: 10px;">
-                <strong>Search Instructions</strong>
-                <p>Placeholder text for search instructions. This section will contain helpful information about how to use the reference search form.</p>
+                <?php echo wp_kses_post($odr_reference_search_vars['help_text']); ?>
             </div>
         </div>
     </div>

@@ -37,6 +37,15 @@ No build tools, package managers, or test suites are configured. This is a tradi
 2. Activate through WordPress admin panel
 3. Add shortcode `[odr-reference-search-display]` to pages/posts
 
+## Versioning
+
+**Important:** After making changes to the plugin, increment the version number in `odr-reference-search.php`. The version must be updated in two places:
+
+1. The plugin header comment: `* Version: X.X.X`
+2. The constant definition: `define( 'ODR_REFERENCE_SEARCH_VERSION', 'X.X.X' );`
+
+WordPress uses this version for cache busting on enqueued assets. If the version is not incremented, WordPress may serve cached/stale CSS and JavaScript files.
+
 ## External Dependencies
 
 - **Pure.css** - Responsive CSS framework (loaded from external ODR path)

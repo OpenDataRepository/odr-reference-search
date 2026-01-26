@@ -64,7 +64,7 @@ class Odr_Reference_Search_Public
     public function enqueue_styles()
     {
         wp_register_style($this->plugin_name, plugin_dir_url(__FILE__) . 'css/odr-reference-search-public.css', array(), $this->version, 'all');
-        wp_register_style($this->plugin_name . '-modal', plugin_dir_url(__FILE__) . 'css/jquery.modal.min.css', array(), $this->version, 'all');
+        wp_register_style($this->plugin_name . '-modal', plugin_dir_url(__FILE__) . 'css/jquery.modal.0.9.1.css', array(), $this->version, 'all');
     }
 
     /**
@@ -75,7 +75,7 @@ class Odr_Reference_Search_Public
     public function enqueue_scripts()
     {
         wp_register_script($this->plugin_name, plugin_dir_url(__FILE__) . 'js/odr-reference-search-public.js', array('jquery'), $this->version, false);
-        wp_register_script($this->plugin_name . '-modal', plugin_dir_url(__FILE__) . 'js/jquery.modal.min.js', array('jquery'), $this->version, false);
+        wp_register_script($this->plugin_name . '-modal', plugin_dir_url(__FILE__) . 'js/jquery.modal.0.9.1.js', array('jquery'), $this->version, false);
     }
 
     /**
@@ -115,6 +115,9 @@ class Odr_Reference_Search_Public
             'sort_title_field' => isset($options['sort_title_field']) ? $options['sort_title_field'] : '',
             'sort_journal_field' => isset($options['sort_journal_field']) ? $options['sort_journal_field'] : '',
             'sort_year_field' => isset($options['sort_year_field']) ? $options['sort_year_field'] : '',
+
+            // Help text
+            'help_text' => isset($options['help_text']) ? $options['help_text'] : '',
         );
 
         // Start output buffering
