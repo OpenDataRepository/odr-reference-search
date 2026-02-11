@@ -70,7 +70,6 @@
         <input type="hidden" id="txt_tag_ids" name="txt_tag_ids" value="">
     </div>
     -->
-
     <!-- Chemistry field hidden for now
     <div class="reference-search-form-section pure-u-1">
         <div class="section-labels pure-u-1 pure-u-md-7-24 pure-u-xl-7-24">
@@ -90,7 +89,6 @@
         <input type="hidden" id="chemistry_excl_txt">
     </div>
     -->
-
     <div class="reference-search-form-section pure-u-1">
         <div class="section-labels pure-u-1 pure-u-md-7-24 pure-u-xl-7-24">
             <label for="txt_general">General</label>
@@ -99,7 +97,6 @@
             <input type="text" class="pure-u-1" id="txt_general" name="txt_general" value="">
         </div>
     </div>
-
     <div class="reference-search-form-section pure-u-1">
         <div class="section-labels pure-u-1 pure-u-md-7-24 pure-u-xl-7-24">
             <label for="txt_author">Author</label>
@@ -108,7 +105,6 @@
             <input type="text" class="pure-u-1" id="txt_author" name="txt_author" value="">
         </div>
     </div>
-
     <div class="reference-search-form-section pure-u-1">
         <div class="section-labels pure-u-1 pure-u-md-7-24 pure-u-xl-7-24">
             <label for="txt_title">Title</label>
@@ -117,7 +113,6 @@
             <input type="text" class="pure-u-1" id="txt_title" name="txt_title" value="">
         </div>
     </div>
-
     <div class="reference-search-form-section pure-u-1">
         <div class="section-labels pure-u-1 pure-u-md-7-24 pure-u-xl-7-24">
             <label for="txt_journal">Journal</label>
@@ -126,7 +121,6 @@
             <input type="text" class="pure-u-1" id="txt_journal" name="txt_journal" value="">
         </div>
     </div>
-
     <div class="reference-search-form-section pure-u-1">
         <div class="section-labels pure-u-1 pure-u-md-7-24 pure-u-xl-7-24">
             <label for="txt_year">Year</label>
@@ -135,7 +129,6 @@
             <input type="text" class="pure-u-1" id="txt_year" name="txt_year" value="">
         </div>
     </div>
-
     <div class="reference-search-form-section pure-u-1">
         <div class="section-labels pure-u-1 pure-u-md-7-24 pure-u-xl-7-24">
             <label for="sel_sort">Sort By</label>
@@ -157,7 +150,6 @@
             </div>
         </div>
     </div>
-
     <div class="reference-search-form-section pure-u-1">
         <div class="pure-u-1 pure-u-md-7-24 pure-u-xl-7-24">
             <label for="submit"></label>
@@ -169,7 +161,6 @@
             <i id="reference-search-help-toggle" class="fa-regular fa-circle-question" style="cursor: pointer; font-size: 1.2em;" title="Search Help"></i>
         </div>
     </div>
-
     <div id="reference-search-help" class="reference-search-form-section pure-u-1" style="display: none;">
         <div class="pure-u-1 pure-u-md-7-24 pure-u-xl-7-24"></div>
         <div class="pure-u-1 pure-u-md-16-24 pure-u-xl-16-24">
@@ -179,7 +170,6 @@
         </div>
     </div>
 </div>
-
 </form>
 
     <!-- <tr>
