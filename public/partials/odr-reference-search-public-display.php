@@ -96,8 +96,7 @@
         <div class="pure-u-1 pure-u-md-16-24 pure-u-xl-16-24">
             <input type="text" class="pure-u-1" id="txt_general" name="txt_general" value="">
         </div>
-    </div>
-    <div class="reference-search-form-section pure-u-1">
+    </div><div class="reference-search-form-section pure-u-1">
         <div class="section-labels pure-u-1 pure-u-md-7-24 pure-u-xl-7-24">
             <label for="txt_author">Author</label>
         </div>
