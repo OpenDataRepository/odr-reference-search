@@ -127,7 +127,7 @@
             <select class="pure-u-1" id="txt_journal" name="txt_journal">
                 <option value=""></option>
                 <?php foreach ($journal_names as $journal_name) { ?>
-                    <option value="<?php echo esc_attr($journal_name); ?>"><?php echo esc_html($journal_name); ?></option>
+                    <option value="<?php echo esc_attr(stripslashes($journal_name)); ?>"><?php echo esc_html(stripslashes($journal_name)); ?></option>
                 <?php } ?>
             </select>
         </div>
