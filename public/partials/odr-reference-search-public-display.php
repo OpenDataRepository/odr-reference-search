@@ -117,7 +117,19 @@
             <label for="txt_journal">Journal</label>
         </div>
         <div class="pure-u-1 pure-u-md-16-24 pure-u-xl-16-24">
-            <input type="text" class="pure-u-1" id="txt_journal" name="txt_journal" value="">
+            <?php
+                $journal_names = [];
+                include(__DIR__ . '/../../../../data-publisher/web/uploads/IMA/journal_names.php');
+                include(__DIR__ . '/../../../../data-publisher/web/uploads/IMA/journal_names_update.php');
+                $journal_names = array_unique($journal_names);
+                sort($journal_names, SORT_LOCALE_STRING);
+            ?>
+            <select class="pure-u-1" id="txt_journal" name="txt_journal">
+                <option value=""></option>
+                <?php foreach ($journal_names as $journal_name) { ?>
+                    <option value="<?php echo esc_attr($journal_name); ?>"><?php echo esc_html($journal_name); ?></option>
+                <?php } ?>
+            </select>
         </div>
     </div>
     <div class="reference-search-form-section pure-u-1">
