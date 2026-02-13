@@ -11,25 +11,6 @@ table.search_form {
     padding: 12px 6px;
 }
 
-/*
-.search_form input[type=email],
-.search_form input[type=number],
-.search_form input[type=password],
-.search_form input[type=reset],
-.search_form input[type=search],
-.search_form input[type=tel],
-.search_form input[type=text],
-.search_form input[type=url],
-.search_form select,
-.search_form textarea {
-    width: auto;
-    padding: 0.25em 0.25em 0.25em 0.25em;
-    font-size: 13px;
-
-}
- */
-
-
 #reference-search-form-submit,
 #reset_sample_search,
 #reference-search-form input[type=button],
@@ -134,10 +115,18 @@ Search Form Definitions
     font-size: 15px !important;
 }
 
+#reference-search-form input[type=email],
+#reference-search-form input[type=number],
+#reference-search-form input[type=password],
+#reference-search-form input[type=reset],
+#reference-search-form input[type=search],
+#reference-search-form input[type=tel],
+#reference-search-form input[type=text],
+#reference-search-form input[type=url],
 #reference-search-form input,
 #reference-search-form select,
-#reference-search-form input[type=text] {
-    /* padding: 6px 10px !important; */
+#reference-search-form textarea {
+    padding: 4px !important;
     font-size: 16px !important;
     font-style: normal !important;
     font-weight: 400 !important;
