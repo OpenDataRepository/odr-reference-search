@@ -123,7 +123,6 @@ Search Form Definitions
 #reference-search-form input[type=tel],
 #reference-search-form input[type=text],
 #reference-search-form input[type=url],
-#reference-search-form input,
 #reference-search-form select,
 #rruff-search-form textarea {
     padding: 4px !important;
