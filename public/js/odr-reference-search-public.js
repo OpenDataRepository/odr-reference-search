@@ -297,6 +297,8 @@ let cellparams = [];
             search_json['sort_by'][0]['sort_dir'] = $('#sel_sort_dir').find(':selected').val();
         }
 
+		// IMA Hard Code for references
+		search_json['inverse'] = 736;
         // console.log("SJ", search_json);
 
         // alert(JSON.stringify(search_json));return false;
