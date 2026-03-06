@@ -298,7 +298,7 @@ let cellparams = [];
         }
 
 		// IMA Hard Code for references
-		search_json['inverse'] = 736;
+		// search_json['inverse'] = 736;
         // console.log("SJ", search_json);
 
         // alert(JSON.stringify(search_json));return false;
